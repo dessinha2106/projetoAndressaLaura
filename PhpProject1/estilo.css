@@ -1,0 +1,120 @@
+body{
+	
+	color:#8B8970;
+	font-family: arial;
+        background-image: url("imagens/patinhas.jpg");  
+}
+#principal{
+        margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+}
+#topo{
+	font-size:40px;
+	height:100px;
+	width:1000px;
+	margin-left:100px;
+	margin-right:100px;
+        background-color: #6D6D6D;
+        border: 3px solid black; 
+}
+#logo{
+	padding:25px;
+        border-color: black;
+}
+#barra{
+    height:50px;
+    widht:1000px;
+    background-color:#8B7355;
+}
+#tabs ul {
+	padding:10px;
+	margin:10px;
+        widht:1000px;
+	background-color:#8B7355;
+	list-style:none;
+}
+
+#tabs ul li { 
+	display: inline; 
+}
+
+#tabs ul li a {
+	padding: 10px 10px;
+	display: inline-block;
+	background-color:#EDEDED;
+	color: #333;
+	text-decoration: none;
+	border-bottom:3px solid #EDEDED;
+}
+
+#tabs ul li a:hover {
+	background-color:#CDAA7D;
+	color: #6D6D6D;
+	border-bottom:3px solid #8B7355;
+}
+
+#lateral{
+        width: 300px;
+	height: 600px;
+	position: absolute;
+	padding:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+        background-color: #FFF;
+      
+}
+#post{
+        width: 650px;
+	height: 600px;
+	margin-left: 315px;
+	position: absolute;	
+	padding:20px;
+        background-color: #FFF;
+}
+form{
+    border-style: solid;
+    border-width: 5px;
+    width: 520px;
+    position: absolute;
+    left: 50%;
+    margin-left: -260px;
+}
+form.buscar{
+    border-style: solid;
+    border-width: 5px;
+    width: 245px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+}
+            
+input.submit{
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -30px;         
+}
+            
+label,  input {
+    display: block;
+    float: left;   
+}
+
+label {	
+    text-align: left;
+    width: 60px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+label.menuBuscar{
+    width: 30px;
+}
+
+br {
+    clear: left;
+}
+#button{
+    alignment-adjust: central;
+}
